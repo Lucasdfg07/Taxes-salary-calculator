@@ -26,7 +26,7 @@ const CalculateIRRF = (props) => {
 
 
         if(calcValue >= 1903.98) {
-            setDependentsDiscount(IR * props.numberOfDependents);
+            setDependentsDiscount(189.59 * props.numberOfDependents);
         } else {
             setDependentsDiscount(0);
             setAliquotValue(0);
