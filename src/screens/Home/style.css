@@ -8,3 +8,11 @@ html {
 .card {
     background-color: rgba(245,245,245,0.4)!important;
 }
+
+@media only screen and (max-width: 900px) {
+    html {
+        background-image: url('../../assets/homepage_mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
