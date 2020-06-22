@@ -1,0 +1,12 @@
+body {
+    background-image: url('../../assets/keyboard_wallpaper.mp4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed; /* optional depending on what you want to do in your app */
+}
+
+.card {
+    background-color: rgba(245,245,245,0.4)!important;
+}
