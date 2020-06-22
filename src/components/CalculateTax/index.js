@@ -4,7 +4,7 @@ import CalculateIRRF from './CalculateIRRF';
 const CalculateTax = (props) => {
     const [valueINSS, setValueINSS] = useState(0);
 
-    function calculate() {
+    const calculate = () => {
         let calcValue = props.salary;
 
         if (calcValue < 1693.72) {
@@ -22,7 +22,7 @@ const CalculateTax = (props) => {
 
     useEffect(() => {
         calculate();
-    }, [props.salary])
+    }, [props.salary, calculate])
 
     return (
         <>

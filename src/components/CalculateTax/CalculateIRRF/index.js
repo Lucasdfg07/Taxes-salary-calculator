@@ -7,7 +7,7 @@ const CalculateIRRF = (props) => {
     const [IR, setIR] = useState(0);
     const [dependentsDiscount, setDependentsDiscount] = useState(0);
 
-    function calculate() {
+    const calculate = () => {
         let calcValue = props.valueINSS;
 
         if(calcValue >= 1903.98 && calcValue < 2826.65) {
@@ -36,7 +36,7 @@ const CalculateIRRF = (props) => {
 
     useEffect(() => {
         calculate();
-    }, [props.valueINSS, props.numberOfDependents])
+    }, [props.valueINSS, props.numberOfDependents, calculate])
 
     return (
         <>
