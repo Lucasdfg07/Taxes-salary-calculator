@@ -1,5 +1,5 @@
 ## Calculate Salary APP
-This is an application made with React JS with the objective to help brazilians to calculate the final salary after taxes.
+This is an application made with React JS with the objective to help brazilians to calculate the final salary after taxes, calculating INSS, dependents discounts and IRRF taxes.
 
 ![Principal Image](https://github.com/Lucasdfg07/taxes-salary-calculator/blob/master/src/assets/homepage.png)
 
