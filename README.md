@@ -14,6 +14,7 @@ Here are the technologies used in this project.
 ## Services Used
 
 * Github
+* Netlify
 
 
 ## Getting started
@@ -29,6 +30,7 @@ Here are the technologies used in this project.
 >    $ npm start
 
 ## Links
+  - Link Deploy: https://after-taxes.netlify.app
   - Repository: https://github.com/Lucasdfg07/Taxes-salary-calculator
     - In case of sensitive bugs like security vulnerabilities, please contact
       Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
